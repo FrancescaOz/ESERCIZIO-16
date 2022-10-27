@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <button type="button" id="menu-btn" onclick="menuBtn()">MENU</button>
+        <ul id="hidden-list">
+            <li class="navMenu">Home</li>
+            <li class="navMenu">About Us</li>
+            <li class="navMenu">Contact</li>
+        </ul>
+    </header>
+    <main>
+        <h1 id="title">Interactive Page</h1>
+        <div class="buttons-container">
+            <button onclick="bigger()">Bigger</button>
+            <button id="color-btn" onclick="color()">Color</button>
+            <button id="upper-btn" onclick="upper()">Upper</button>
+            <button id="hidden-btn" onclick="hide()">Hidden</button>
+            <button id="show-btn" onclick="show()">Show</button>
+        </div>
+    </main>
+    <aside>
+        <h2>Courses List</h2>
+        <ul>
+            <li class="list-items">HTML</li>
+            <li class="list-items">CSS</li>
+            <li class="list-items">JavaScript</li>
+            <li class="list-items">Bootstrap</li>
+        </ul>
+    </aside>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
